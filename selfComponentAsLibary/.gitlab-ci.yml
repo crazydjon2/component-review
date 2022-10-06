@@ -1,0 +1,7 @@
+include:
+  - project: 'rshbintech/integrations/ckpr/ci-cd/base'
+    file: '/flow/ci-cdl/lib/frontend.yml'
+
+variables:
+  SKIP_STAGE_DEPS: "true"
+  VERSIONING_MODE: 'manual'

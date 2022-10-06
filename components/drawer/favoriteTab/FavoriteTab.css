@@ -1,0 +1,17 @@
+.drawer__wrapper .v-list-item__icon{
+    margin-right: 12px !important;
+    margin-left: -3px !important;
+}
+
+
+.v-list-item--active > .v-list-item__icon > .v-icon {
+    color: #42ab44 !important;
+}
+
+div.v-list-item--active > .v-list-item__content > .v-list-item__title {
+    color: #42ab44 !important 
+}
+
+div.v-list-item--active.v-list-item--link:before {
+    background-color: #42ab44 !important;
+}

@@ -1,0 +1,33 @@
+.table__utils {
+    position: relative!important;
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12)!important;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 12px;
+    background: lightgray;
+  }
+
+.access__table .v-data-table__wrapper {
+  height: calc(100vh - 208px) !important;
+  overflow: auto;
+}
+
+.v-data-table-header tr th {
+  background: white;
+  z-index: 2;
+}
+
+.v-data-table-header tr th:first-child {
+  width: 51px !important;
+  min-width: 51px !important
+}
+
+.access__table tbody tr {
+  cursor: pointer;
+}
+
+.favorite-toolbar {
+    background-color: #eee !important;
+}

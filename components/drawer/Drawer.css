@@ -1,0 +1,75 @@
+.app-drawer {
+    top: 48px !important;
+    transform: translateX(0) !important;
+    height: calc(100vh - 48px) !important;
+}
+
+.v-list__tile .v-list__tile__action {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 48px;
+}
+.v-navigation-drawer > .v-list .v-list__tile--active .v-list__tile__title {
+    color: #F5F7F9;
+}
+.v-list__tile--active .v-list__tile__action:first-of-type .v-icon {
+    color: #F5F7F9;
+}
+#listDrawer > .noIcon > .v-list-group__header > .v-list-group__header__append-icon {
+    display: none !important;
+}
+.textPath {
+    color: #F5F7F9;
+}
+#listDrawer {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.v-list-group--active {
+    border-radius: 4px;
+    background-color: #e3f2fd;
+}
+
+.v-navigation-drawer__content {
+    position: relative !important;
+}
+
+.toggle-menu-btn {
+    position: absolute !important;
+	bottom: 0 !important;
+
+	width: 100%!important;
+    height: 36px!important;
+
+    padding-left: 12px!important;
+
+    justify-content: start!important;
+	background-color: #fff!important;
+}
+.toggle-menu-btn:hover {
+	background-color: transparent!important;
+}
+.toggle-menu-btn:focus {
+	background-color: transparent!important;
+}
+.v-list-group--active{
+    background-color: #F5F7F9;
+}
+
+.drawer__wrapper {
+}
+
+.v-list-group__header__prepend-icon{
+    margin-right: 12px !important;
+}
+
+.v-navigation-drawer--is-mobile {
+    z-index: 8 !important;
+}

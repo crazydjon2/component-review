@@ -1,0 +1,100 @@
+.config__card .v-tabs {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 0 25px;
+}
+
+.config__card .v-tab {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-transform: capitalize;
+}
+
+.card__footer {
+    bottom: 0;
+}
+
+.config__card .v-window__container {
+    height: 100%;
+}
+
+.config__card .v-tab {
+    font-size: 14px !important;
+}
+
+.card__audit .v-application--wrap {
+    min-height: 100% !important;
+}
+
+.iterator-footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    max-height: 56px;
+    overflow: hidden;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.error-message {
+    max-width: 400px;
+}
+
+.leftBlockJournal {
+    height:40px;
+    float: left;
+    width: 95px;
+    margin: 5px 0px 0px 5px;
+}
+
+.package__title {
+    margin-bottom: 12px;
+}
+
+.package__row {
+    width: 100%;
+}
+
+.package__row .v-input {
+    max-width: 70%;
+}
+
+.task-card__actions {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+    background: white;
+    -webkit-box-shadow: 0px -4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px -4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px -4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.task-card__loader {
+    position: fixed !important;
+    z-index: 101;
+    left: calc(50% - 32px);
+    top: calc(50% - 32px);
+}
+
+.opacity {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#JournalFilter .v-application--wrap {
+    min-height: 50px!important;
+}
+
+#JournalFilter #AddFilter {
+    font-size: 0.7em !important;
+}
